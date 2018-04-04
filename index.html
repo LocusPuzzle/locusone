@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <style>
 
@@ -6,6 +6,7 @@ body {
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 6%;
+  margin-bottom: 6%;
   font-family: "Open Sans", sans-serif;
   background: #000000 url("Death_and_the_Labyrinth.jpg") no-repeat center;
   background-size: 9000px;
@@ -45,6 +46,12 @@ h3 {
   font-size: 24px;
 }
 
+p {
+  font-weight: normal;
+  color: #666;
+  font-size: 18px;
+}
+
 .black {
   color: black;
 }
@@ -78,22 +85,23 @@ h3 {
   <title>Locus</title>
 </head>
 <body>
-  <h1>Locus | Chapter One    </h1>
-  <h3>Welcome to Locus, a puzzle ecosystem spread out across the internet in several chapters, of which this is the first.</h3>
-  <h3>Those wishing to participate must contribute .05 Ether to the jackpot Ethereum address.</h3>
-  <h3>The first participant to successfully reach the end of the chapter will receive 80% of the jackpot accrued to that point, with the remaining 20% retained by Locus for use in developing further chapters of the puzzle, paying devs, etc.</h3>
+  <h1>Locus | One    </h1>
+  <h3>Locus is a series of puzzles spread out across the internet, of which this is the first.</h3>
+  <h3>Those wishing to participate must contribute a minimum .1 Ether to stake the Locus contract, with 80% of each buy in going into a bounty wallet for the puzzle winner, and 20% into a dev wallet for use in developing future puzzles</h3>
+  <h3>The first participant to successfully reach the end of the chapter will receive 80% of the jackpot accrued to that point.</h3>
   <h3>The winner will be required to verify full stake in the pot before they will be eligible to receive their reward.</h3>
   <h3>The longer the chapter takes to be solved, the more players are likely to enter the game, and the larger grows the bounty.</h3>
   <h3>Check the current balance of the pot <a href="https://etherscan.io/address/0x708294833AEF21a305200b3463A832Ac97852f2e" target="_blank">here</a>.</h3>
-  <br><br>
+  <br>
   <h1>Ready when you are.</h1>
-  <br><h3>To get started, send .05 eth to address: 0x92f67e6069e64b28f2cb183b325d30ee7e9736db</h3>
+  <h3>To accept your challenge, stake the pot by sending .1 eth to the contract address: 0x47Db0Cf6C09bE1aaf0490Cf0086Ab5c7814fa755</h3>
   <div class="tip-button"></div>
   <br>
+  <h3>Once you've made your stake, the game is on; you should have everything you need to get started.</h3> 
 </body>
 <script>
 
-var MY_ADDRESS = '0x92f67e6069e64b28f2cb183b325d30ee7e9736db'
+var MY_ADDRESS = '0x47Db0Cf6C09bE1aaf0490Cf0086Ab5c7814fa755'
 
 var tipButton = document.querySelector('.tip-button')
 
@@ -108,7 +116,7 @@ tipButton.addEventListener('click', function() {
   web3.eth.sendTransaction({
     to: MY_ADDRESS,
     from: user_address,
-    value: web3.toWei('.05', 'ether'),
+    value: web3.toWei('.1', 'ether'),
   }, function (err, transactionHash) {
     if (err) return renderMessage('There was a problem!: ' + err.message)
 
