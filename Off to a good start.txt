@@ -6,13 +6,20 @@ First off, if you haven't already, you really should join our Discord: https://d
 
 Let’s establish a few rules to begin:
 
-1) No serious cryptography, or deep knowledge of how to code will be needed to complete the puzzle. There’s a bit of grade-school level math at one point; the real trick is figuring out where. The chief skillsets required are curiosity and a willingness to seek relationships and patterns where at first there may seem to be none. You'll also likely want to keep notes.
+1) No serious cryptography, or deep knowledge of how to code will be needed to complete the puzzle. 
+There’s a bit of grade-school level math at one point; the real trick is figuring out where. 
+The chief skillsets required are curiosity and a willingness to seek relationships and patterns 
+where at first there may seem to be none. You'll also likely want to keep notes.
 
 2) No real-world travel required; everything can be solved from an internet-connected computer.
 
-3) The first four chapters of the puzzle will be released between now and April 30 as the bounty reaches certain thresholds (the first prologue chapter is already live for you to find; the second will drop when the bounty reaches 1 ETH). 
+3) A series of prologue levels of the puzzle will be released as the bounty reaches certain thresholds. 
+(The first prologue chapter is already live for you to find; the second will drop when the bounty reaches 1 ETH, and so on.) 
 
-4) On April 30th OR once the bounty reaches 10 ETH (whichever comes first), all remaining chapters of the puzzle will be released, and registration of new addresses into the game will be locked (this is to prevent players from waiting until just before solving the puzzle to stake the bounty). Only players who have staked the contract before that point will be eligible to claim the bounty.
+4) On April 30th OR once the bounty reaches 5 ETH (whichever comes first), all remaining chapters of the puzzle 
+will be released, and registration of new addresses into the game will be locked (this is to prevent players from 
+waiting until just before solving the puzzle to stake the bounty). ***Only players who have staked the contract before
+that point will be eligible to claim the bounty.***
 
 Thank you in advance for being a part of our "first edition."
 
