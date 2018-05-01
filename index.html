@@ -91,23 +91,8 @@ p {
   <h1>Locus | One    </h1>
   <h3>Locus | One is an ARG riddle/scavenger hunt/logic puzzle spread out across the internet. You have found the first installment.</h3>
   <h3>Locus takes players on a journey through the internet (and humanity)'s deep well of weirdness in order to uncover and progress a thematic narrative that passes through philosophy, literature, history, science, music, and much more. Clues could be anywhere at any time.</h3>
-  <h3>There are two ways to participate in Locus | One: 
-    <ol>1. <strong>Table Stakes:</strong> Solve the puzzle in its entirety for free, just for the fun of it.</ol>
-    <ol>2. <strong>Bounty Race:</strong> Stake a bounty in Ether (ETH), and then compete to be the first to solve the puzzle and claim the bounty.</ol>
-  <h1><strong>Rules for the Bounty Race</strong></h1>
-  <h3>Those wishing to be eligible to claim the bounty must contribute a minimum 0.1 Ether to stake the Locus contract, which will dispense 80% of each buy-in to a bounty wallet for the puzzle winner and the remaining 20% into a dev wallet for use in developing future puzzles.</h3>
-  <h3>The first participant to successfully solve the puzzle will receive the full balance of the bounty address.</h3>
-  <h3>The winner will be required to verify full stake in the pot upon attempting to claim their reward.</h3>
-  <h3>Check the current balance of the pot <a href="https://etherscan.io/address/0x708294833AEF21a305200b3463A832Ac97852f2e" target="_blank">here</a>.</h3>
-  <h3>The first set of five "Prologue" levels are already live, and all remaining levels required to solve will be released on April 30th at 23:00 UTC.</h3>
-  <h3>Again, as this is about fun, you'll be able to access/solve the whole puzzle for free, but you'll only be able to claim the ETH bounty if you've staked in by 4/30. At this point, the contract will be paused and therefore closed to new participants in the bounty race.</h3>
-  <br>
-  <h1>Ready when you are.</h1>
-  <h3>To accept your challenge, stake the pot by sending 0.1 eth to the contract address: 0x16FF6A8cF19eEe38F6CCE81d42ed390038547048, which you can do with MetaMask here:</h3>
-  <div class="tip-button"></div>
-  <br>
   <h3>The first prologue level is hidden on this page for you to find; join our <a href="https://discord.gg/hQAtPFr" target="_blank">discord chat</a> for additional clues, collaboration, and more.</h3>
-    <a align="right" class="github-button" href="https://github.com/locuspuzzle/locusone/" data-size="large" aria-label="The very accusation is the death">Hosted with Github</a>
+ <!--   <a align="right" class="github-button" href="https://github.com/locuspuzzle/locusone/" data-size="large" aria-label="The very accusation is the death">Hosted with Github</a> -->
 </body>
 <script>
 
@@ -130,7 +115,11 @@ tipButton.addEventListener('click', function() {
   }, function (err, transactionHash) {
     if (err) return renderMessage('There was a problem!: ' + err.message)
 
-    //Sum(SN*%CL)
+    //function sumproduct(uint256 sn, uint256 %cl) internal pure returns (uint256) {
+    //    uint256 c = a * b;
+    //    assert(c / a == b);
+    //    return c;
+    //}
     renderMessage('Thank you! Your stake has been logged.')
   })
 })
